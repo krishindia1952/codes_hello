@@ -1,0 +1,17 @@
+#include <stdio.h>
+int c=4;
+int main()
+{
+    printf("Hello World");
+    switch(c){
+        case 1:printf("hello");
+        break;
+        case 4:switch(c){
+            case 4:printf("\n hi this  nest swithc works");
+            break;
+            
+        }
+        break;
+    }
+    return 0;
+}

@@ -1,0 +1,30 @@
+#small cafe project
+print("todays menu")
+c=0
+print("1.coffee 2.sandwhich 3.tomato soup 4.vanilla milshake 5.brownie")
+o=input("what would you like to order?")
+if o=="coffee":
+    print("coming right a way")
+    c=40
+elif o=="sandwhich":
+    print("coming right a way")
+    c=50
+elif o == "tomato soup":
+    print("coming right a way")
+    c=60
+elif o == "vanilla milkshake":
+    print("coming right a way")
+    c=70
+elif o == "brownie":
+    print("coming right a way")
+    c=20
+else:
+    print("wrong order try again")
+
+print("your amount is rs.",c)
+a=input("alright would you like to use cash or card?:")
+if a=="cash":
+    print("ok sir you are using cash")
+else:
+    print("ok sir thanks for your card soon there will be a message of a free brownie on your phone which you can use next time when you visit us.")
+print("thank you sir have a nice day")

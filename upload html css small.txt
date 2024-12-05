@@ -1,0 +1,54 @@
+<html>
+    <style>
+        h2{
+            color:palevioletred
+            
+        }
+        p{
+            color:darkgreen
+        }
+    </style>
+
+<h1 style="background-color:blue;border:2px;color:yellow"><u>FEEDBACK FORM</u></h1>
+<!--<img src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg" alt="Food review"
+width="150px"
+height="200px"/>-->
+<!--use copy image address-->
+<p><i>Hello<br> few minutes of your's ,can improve our services to much<br>please answer the below quetions</i></p>
+<body>
+    <h2>Q1.What did you ordered?</h2>
+    <!--<img src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg" alt="Food review"
+width="100px"
+height="50px"/>-->
+
+    <label>answer 1</label>
+    <input type ='text'  />
+    <h2>Q2.Was it spicy ,sweet or bland?</h2>
+    <label>bland</label>
+    <input type ="radio-button"/>
+
+    <!--<img src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg" alt="Food review"
+width="100px"
+height="50px"/>-->
+
+    <label>answer 2</label>
+    <input type ='text'/>
+    <label>sweet</label>
+    <input type ="radio-button"/>
+    <h2>Q3.Did it satisfied you? if yes then how and if not then how can we improve it?</h2>
+    <!--<img src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg" alt="Food review"
+width="100px"
+height="50px"/>-->
+
+    <label>answer 3</label>
+    <input type ='text' />
+    <label>spicy</label>
+    <input type ="radio-button"/>
+    <p>Thanks a lot for answering above quetions .<br>We will implement them and make your next visit more comfortable,<br> thank you and  have a nice day.</p>
+<script>
+    let a='hi friends';
+    console.log("hello this is script")
+    console.log(a)
+</script>
+</body>
+</html>

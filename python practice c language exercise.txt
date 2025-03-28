@@ -1,0 +1,9 @@
+import random
+list=[print("1.)#include<stdio.h> \n int man()\n {\n int a=3;\n  printf(\"%d\",a);\n }"),print("2.)#include<stdio.h>\n  int main()\n {int a=3;\n  print(\"%d\",a);\n }"),print("3.)#include<stdo.h>\n  int main()\n {\n int a=3;\n  print(\"%d\",a);\n }"),print("4.)#include<stdio.h>\n  int main()\n {\n int a=3;\n  print(\"%d\",a);\n }"),print("5.)include<stdio.h>\n nt main()\n{\nint sum=0;\nfor(int i=0;i<6;i++)\n{\nscanf(\"%d\",&a);\nsum=sum+a;\n}\nprintf(\"%d\",a);\n\n}\n}")]
+
+print(random.choices(list))
+a=input(print("tell is there error \"in\" code type y/n"))
+if (a=="y"):
+    print("provide solution")
+else:
+    print("ok then explain what it does and go to next bug ")
